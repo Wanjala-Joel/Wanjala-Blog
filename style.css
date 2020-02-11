@@ -1,0 +1,117 @@
+body{
+    margin:0;
+    padding:0;
+    background:#f4f4f4;
+    font-family:cambria;
+    font-size:18px;
+}
+
+/* Global Classes */
+
+
+a{
+    text-decoration:none;
+    color:default;
+}
+.container{
+    width:90%;
+    margin:auto;
+}
+header{
+    background:#333;
+    color:#fff;
+    padding:20px;
+}
+#branding{
+    width:90%;
+    margin:auto;
+}
+
+/* Nvigation Bar */
+
+#navigation{
+    background:#467;
+    padding:20px;
+    position:sticky;
+    top:0;
+}
+.nav-bar li{
+   display:inline;
+   padding:0 10px;
+}
+.nav-bar li a{
+    text-transform:uppercase;
+    color:#fff;
+}
+.nav-bar li a:hover{
+    color:#ccc;
+    font-weight:bold;
+}
+
+/* Home */
+
+#home{
+    min-height:400px;
+    background:url('img/nature.png') 0 -350px;
+    background-size:cover;
+    padding:20px;
+    text-align:center;
+    color:#fff;
+}
+.showcase h1{
+    font-size:50px;
+    font-weight:55px;
+    margin-top:8%;
+}
+.showcase p{
+    font-size:25px;
+}
+
+/* About */
+
+#about{
+    min-height:400px;
+    background:#786;
+    padding:20px;
+    color:#fff;
+}
+.left-article{
+    width:56%;
+    float:left;
+}
+.right-article{
+    width:40%;
+    float:right;
+    margin-top:10px;
+}
+
+/* Services */
+
+#services{
+    min-height:500px;
+    background:#589;
+    padding:20px;
+    color:#fff;
+}
+.list-nav-bar li{
+    list-style:none;
+    background:#808080;
+    padding:10px;
+    margin:15px 0;
+}
+
+/* Contacts */
+
+#contacts{
+    min-height:200px;
+    background:#fc0362;
+    padding:20px;
+    color:#fff;
+}
+
+footer{
+    background:#800000;
+    color:#fff;
+    padding:20px;
+    text-align:center;
+}
